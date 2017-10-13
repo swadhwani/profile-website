@@ -2,100 +2,548 @@
 <html lang="en">
 
 <head>
-    <title>Ristorante Con Fusion</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--Bootstrap Social !-->
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--Font Awesome!-->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+
+
+    <title>Swaroop Wadhwani: Interactive Resume</title>
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
-    <header>
-        <div>
-            <div>
-                <div>
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                </div>
-                <div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#abilities">Abilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#experiences">Experiences</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                                    <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                                </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-white">
+        <img class="header-image img-responsive" src="images/background.jpg" />
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12  align-text-center">
+                    <p class="header-title">Swaroop Wadhwani
+                        <br> Interactive Resume </p>
                 </div>
             </div>
         </div>
     </header>
 
-    <div>
-        <div>
-            <div>
-                <h3>Our Lipsmacking Culinary Creations</h3>
+    <div class="container">
+        <div class="row row-content align-items-center" id="profile">
+            <div class="col-12">
+                <div class="card card-block bg-faded">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">“Protons give an atom its identity, electrons its personality.”</p>
+                        <footer class="blockquote-footer">
+                            Bill Bryson,
+                            <cite title="Source Title"> A Short History of Nearly Everythingy</cite>
+                        </footer>
+                    </blockquote>
+                </div>
             </div>
-            <div>
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+
+            <div class="col-12 col-sm-9" style="margin-top:50px">
+                <div class="card">
+                    <div class="card-header greenish-white">
+                        <i class="fa fa-info fa-3x"></i>
+                        <br> ____
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="card-block">
+                        <div class="col-sm-12">
+                            <p>
+                                <h3> Eager to learn the latest technologies and implement them in the real world. Leverages technical
+                                    expertise in software development to provide solutions for resolving critical operational
+                                    issues. Also known for being adaptable in any environment who blends development experience
+                                    with academic training at University of Cincinnati to offer solid skills in software
+                                    programming and root cause analysis. </p>
+                            <p> Aspiring to be a Web Developer</h3>
+                            </p>
+                            <br>
+
+                            <i class="fa fa-futbol-o fa-2x"></i>
+                            <br> ____
+                            <h3>
+                                <Strong>Hobbies</Strong>
+                                <br> Soccer | Photography | hiking | Reading </h3>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-3" style="margin-top:50px">
+                <div class="card">
+                    <div class="card-header justify-content-center greenish-white">
+                        <img class="self-image" src="images/self.png" />
+                    </div>
+                    <div class="card-block">
+                        <div class="col-sm-10 offset-sm-2">
+                            <br>
+                            <dl class="row">
+                                <dt class="col-6">Name</dt>
+                                <dd class="col-6">Swaroop Wadhwani</dd>
+                                <dt class="col-6">Age</dt>
+                                <dd class="col-6">29 years</dd>
+                                <dt class="col-6">Location</dt>
+                                <dd class="col-6">Orlando, FL</dd>
+                            </dl>
+                            <a class="twitter-follow-button" href="https://twitter.com/sunnySideDown22?ref_src=twsrc%5Etfw" data-size="large" data-show-count="false"
+                                data-show-screen-name="false"> </a>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/sunnySideDown22" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-linkedin" href="https://twitter.com/sunnySideDown22" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a class="btn btn-social-icon btn-github" href="https://twitter.com/sunnySideDown22" target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a>
+                        <a id="downloadResume" class="btn btn-social-icon btn-facebook" href="Swaroop_wadhwani.docx" target="_blank" data-toggle="tooltip"
+                            title="Download Resume" download>
+                            <i class="fa fa-download"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row row-content align-items-center" id="abilities">
+
+            <div class="col-12">
+                <div class="card card-block bg-faded">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">“For a moment, nothing happened. Then, after a second or so, nothing continued to happen.”</p>
+                        <footer class="blockquote-footer">
+                            Douglas Adams,
+                            <cite title="Source Title"> The Hitchhiker's Guide to the Galaxy</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-4" style="margin-top:50px">
+                <div class="card-block">
+                    <div id="accordion" role="tablist">
+                        <div class="card no-border">
+                            <div class="card-header bg-white" role="tab" id="skillshead">
+                                <h3 class="mb-0">
+                                    <a class="text-black" data-toggle="collapse" data-parent="#accordion" href="#skills">
+                                        <span class="fa fa-star-o fa-2x"></span> Skills</a>
+                                </h3>
+                            </div>
+
+                            <div role="tabpanel" class="collapse show" id="skills">
+                                <div class="card-block">
+                                    <ul>
+                                        <li>
+                                            <h3>HTML</h3>
+                                        </li>
+                                        <li>
+                                            <h3>CSS</h3>
+                                        </li>
+                                        <li>
+                                            <h3>Javascript</h3>
+                                        </li>
+                                        <li>
+                                            <h3>Angular</h3>
+                                        </li>
+                                        <li>
+                                            <h3>jQuery</h3>
+                                        </li>
+                                        <li>
+                                            <h3>Bootstrap</h3>
+                                        </li>
+                                        <li>
+                                            <h3>NodeJS</h3>
+                                        </li>
+                                        <li>
+                                            <h3>MVC Pattern</h3>
+                                        </li>
+                                        <li>
+                                            <h3>Object Oriented Programming</h3>
+                                        </li>
+                                        <li>
+                                            <h3>MySQL</h3>
+                                        </li>
+                                        <li>
+                                            <h3>MongoDB</h3>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="card no-border">
+                            <div class="card-header bg-white" role="tab" id="toolshead">
+                                <h3 class="mb-0">
+                                    <a class="text-black" href="#tools" class="collapsed" data-toggle="collapse" data-parent="#accordion">
+                                        <span class="fa fa-wrench fa-2x"></span> Tools</a>
+                                </h3>
+                            </div>
+
+                            <div role="tabpanel" class="collapse" id="tools">
+                                <div class="card-block">
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript</li>
+                                        <li>Angular</li>
+                                        <li>jQuery</li>
+                                        <li>Bootstrap</li>
+                                        <li>NodeJS</li>
+                                        <li>MVC Pattern</li>
+                                        <li>Object Oriented Programming</li>
+                                        <li>MySQL</li>
+                                        <li>MongoDB</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card no-border">
+                            <div class="card-header bg-white" role="tab" id="SAPhead">
+                                <h3 class="mb-0">
+                                    <a class="text-black" href="#SAP" class="collapsed" data-toggle="collapse" data-parent="#accordion">
+                                        <span class="fa fa-building fa-2x"></span> SAP Skills</a>
+                                </h3>
+                            </div>
+
+                            <div role="tabpanel" class="collapse" id="SAP">
+                                <div class="card-block">
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript</li>
+                                        <li>Angular</li>
+                                        <li>jQuery</li>
+                                        <li>Bootstrap</li>
+                                        <li>NodeJS</li>
+                                        <li>MVC Pattern</li>
+                                        <li>Object Oriented Programming</li>
+                                        <li>MySQL</li>
+                                        <li>MongoDB</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card no-border">
+                            <div class="card-header bg-white" role="tab" id="languagehead">
+                                <h3 class="mb-0">
+                                    <a class="text-black" href="#language" class="collapsed" data-toggle="collapse" data-parent="#accordion">
+                                        <span class="fa fa-language fa-2x"></span> Languages</a>
+                                </h3>
+                            </div>
+
+                            <div role="tabpanel" class="collapse" id="language">
+                                <div class="card-block">
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript</li>
+                                        <li>Angular</li>
+                                        <li>jQuery</li>
+                                        <li>Bootstrap</li>
+                                        <li>NodeJS</li>
+                                        <li>MVC Pattern</li>
+                                        <li>Object Oriented Programming</li>
+                                        <li>MySQL</li>
+                                        <li>MongoDB</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-8" style="margin-top:50px">
+                <div class="card">
+                    <div class="card-header justify-content-center greenish-white">
+
+                        <i class="fa fa-lightbulb-o fa-3x"></i>
+                        <br> ____
+                        <h2>Education</h2>
+                    </div>
+                    <div class="card-block">
+                        <div class="col-sm-12">
+                            <br>
+                            <h2>
+                                <strong>
+                                    <u>University of Cincinnati </u>
+                                    </University>
+                                </strong>
+                            </h2>
+                            <h3>Master of Science in Information Technology</h3>
+                            <h4>Relevant Courses: IT management, Web Development with .NET, Data Modelling, Database Design,
+                                XML and Web Services, Network Design, Data Analysis and Data Visualization </h4>
+                            <br>
+                            <br>
+                            <hr>
+                            <h2>
+                                <strong>
+                                    <u>University of Mumbai</u>
+                                </strong>
+                            </h2>
+                            <h3>Bachelors in Engineering</h3>
+                            <h4>Majors in Electronics and Telecommunications</h4>
+                            <h4>Relevant Courses: Computer Programming, Micro Processors, Micro Controllers, Logical Design </h4>
+                            <br>
+                            <br>
+                            <hr>
+                            <h2>
+                                <strong>
+                                    <u>Peoples Education Society</u>
+                                </strong>
+                            </h2>
+                            <h3>Higher Secondary Certificate in Science</h3>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content align-items-center" id="experiences">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header justify-content-center greenish-white">
+                        <i class="fa  fa-briefcase fa-3x"></i>
+                        <br> ____
+                        <h2>Work Experience</h2>
+                    </div>
+                    <div class="card-block">
+                        <div class="col-sm-12" style="margin-top:20px">
+                            <h3>
+                                <u>Movilitas Consulting, Sanford, FL </u>
+                            </h3>
+                            <h4>Technical Consultant</h4>
+                            <h5>
+                                <ul>
+                                    <li> Implemented receipt printing in Bluetooth enabled devices using MEL coding for the client’s
+                                        mobile application. This program has helped users reduce their turnaround time by
+                                        20% and helps in maintaining the records for further investigation </li>
+                                    <li> Implemented Radio Frequency (RF) programs for a Warehousing company. This implementation
+                                        has helped increase the productivity of the whole warehouse </li>
+                                    <li> Maintenance of Mobility System implemented by a Field Servicing company. Enhancement
+                                        of the application in the last 6 months has opened up new avenues for the company
+                                        for processing different kinds of orders </li>
+                                </ul>
+                            </h5>
+
+                            <h3>
+                                <u>SAP America Inc., Newtown Square, PA </u>
+                            </h3>
+                            <h4>Intern, (Developer) </h4>
+                            <h5>
+                                <ul>
+                                    <li>Worked on the development of AskSAP application using bootstrap framework and JQuery.
+                                        Helped setup Database model using SQL. The application uses speech recognition to
+                                        help employees on their day to day activities</li>
+                                    <li>Developed XSJS web services for processing requests typed in by the user on the AskSAP
+                                        web application deployed on HANA cloud platform (HCP) </li>
+                                    <li>Implemented several business change requests for SAP CRM sales using ABAP development.
+                                        Worked on components, event handlers, context nodes, attributes, views and windows.
+                                        Was involved in enhancing the framework architecture on all the different software
+                                        layers </li>
+                                </ul>
+                            </h5>
+
+                            <h3>
+                                <u>Infosys Limited, Bangalore, India </u>
+                            </h3> September 2010-July 2014
+                            <h4>Senior Developer </h4>
+                            <h5>
+                                <ul>
+                                    <li>Developed an application to facilitate reimbursement of mobile phone bills. This is a
+                                        Java web application and is still used by more than 10,000 users</li>
+                                    <li>Designed and developed posting dashboard using module pool and report programming in
+                                        ABAP. The dashboard is used extensively for posting of financial documents</li>
+                                    <li>Mentored a team of three newly joined employees on their project assignments. Performed
+                                        system analysis and code review and helped them complete their projects ahead of
+                                        schedule </li>
+                                </ul>
+                            </h5>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <div class="row row-content align-items-center" id="contact">
+            <div class="col-12 col-sm-5">
+                <div class="card">
+                    <div class="card-header justify-content-center greenish-white">
+                        <i class="fa fa-glass fa-3x"></i>
+                        <br> ____
+                        <h2>Let's Talk</h2>
+                    </div>
+                    <div class="card-block">
+                        <div class="col-sm-12">
+                            <br>
+                            <p>
+                                <h4> Location: 14101 Millwood Drive, Sanford, Florida
+                                    <br>
+                                    <br> Email: swaroop.s.wadhwani@gmail.com
+                                    <br>
+                                    <br> Phone: +1 (484)-885-1530 </h4>
+                                <br>
+                            </p>
+                            <a href="https://www.google.com/maps/place/Millwood+Dr,+Sanford,+FL+32771/@28.7932147,-81.3364446,17z/data=!3m1!4b1!4m5!3m4!1s0x88e71298d904d5e3:0x1df09da96ef28abf!8m2!3d28.79321!4d-81.3342505">
+                                <h3>Open Maps</h3>
+                            </a>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/sunnySideDown22" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a> &nbsp; &nbsp; &nbsp;
+                        <a class="btn btn-social-icon btn-linkedin" href="https://twitter.com/sunnySideDown22" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a> &nbsp; &nbsp; &nbsp;
+                        <a class="btn btn-social-icon btn-github" href="https://twitter.com/sunnySideDown22" target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a> &nbsp; &nbsp; &nbsp;
+                        <a id="downloadResume" class="btn btn-social-icon btn-facebook" href="Swaroop_wadhwani.docx" target="_blank" data-toggle="tooltip"
+                            title="Download Resume" download>
+                            <i class="fa fa-download"></i>
+                        </a>
+                    </div>
 
-        <div>
-            <div>
-                <h3>This Month's Promotions</h3>
+                </div>
             </div>
-            <div>
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-            </div>
-        </div>
+            <div class="col-12 col-sm-7">
+                <div class="card">
+                    <div class="card-header justify-content-center greenish-white">
+                        <i class="fa fa-envelope-o fa-3x"></i>
+                        <br> ____
+                        <h2>Reach Me</h2>
+                    </div>
+                    <div class="card-block">
+                        <div class="col-sm-12">
+                            <form data-toggle="validator" role="form" id="contactForm" method="POST" action="http://formspree.io/swaroop.s.wadhwani@gmail.com">
+                                <div class="form-group row" style="margin-top: 20px">
+                                    <div class="col-md-10">
+                                        <input type="text" class="form-control" id="yourname" name="firstname" placeholder="Your Name" data-error="Please provide your Name"
+                                            required>
+                                        <div class="help-block with-errors" style="color:red"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-12 col-sm-7">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" data-error="That email is Invalid!"
+                                            required>
+                                        <!-- <div class="help-block with-errors" style="color:red"></div> -->
+                                    </div>
+                                    <div class="col-12 col-sm-5">
+                                        <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number" data-error="That Phone Number is Invalid!"
+                                            pattern="[0-9]*">
+                                    </div>
+                                    <div class="help-block with-errors" style="color:red; margin-left:20px"></div>
+                                </div>
 
-        <div>
-            <div>
-                <h3>Meet our Culinary Specialists</h3>
-            </div>
-            <div>
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                                <div class="form-group row">
+                                    <div class="col-md-10">
+                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <textarea class="form-control" id="feedback" name="feedback" rows="8" placeholder="Message" data-error="Writing something to me?"
+                                            required></textarea>
+                                        <div class="help-block with-errors" style="color:red"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="offset-md-2 col-md-10">
+                                        <button type="submit" class="btn btn-primary" id="submitButton" onclick="onSubmit()"> Send Message </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <footer>
-        <div>
-            <div>             
-                <div>
-                    <h5>Links</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+    <!-- Footer -->
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-white">
+                    <br>
+                    <br>
+                    <div class="fb-like" data-href="https://www.facebook.com/sunny.wadhwani.58323/videos/10159177339555307/?hc_ref=ART5XCXSj4t9S7HF1P9U0BdFDUni_WgWspUOTfxUbgXScxXVixC1AumS4JCL--O-lOQ&amp;fref=nf&amp;pnref=story"
+                        data-width="200" data-layout="standard" data-action="like" data-size="large" data-show-faces="false"
+                        data-share="true"></div>
                 </div>
-                <div>
-                    <h5>Our Address</h5>
-                    <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
-                </div>
-                <div>
-                    <div>
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
-                    </div>
-                </div>
-           </div>
-           <div>             
-                <div>
-                    <p>© Copyright 2015 Ristorante Con Fusion</p>
-                </div>
-           </div>
+            </div>
         </div>
     </footer>
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="jquery/jquery.min.js"></script>
+    <script src="popper/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/validator.min.js"></script>
+    <script src="bootstrap/js/bootbox.min.js"></script>
+    <script src="http://platform.twitter.com/widgets.js"></script>
+       <!-- Plugin JavaScript -->
+       <script src="jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/script.js">
+    </script>
 </body>
 
 </html>
