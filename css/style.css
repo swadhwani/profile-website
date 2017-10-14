@@ -50,13 +50,15 @@ body{
 
   .header-title {
       position: absolute;
-      top: 0%;
-      left: 45%;
-      transform: translate( -20%, -200% );
+      bottom: 40%;
       text-align: center;
       color: white;
       font-weight: bold;
       font-size: 3.00em;
+      color:       #fff;
+      padding:     0 20px;
+      width:       40%;
+      line-height: 150%;
   }
 
   .header-sub-title {
