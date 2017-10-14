@@ -22,13 +22,16 @@
 
 <body>
     <div id="fb-root"></div>
-    <script>(function (d, s, id) {
+    <script>
+        (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
+            js = d.createElement(s);
+            js.id = id;
             js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
             fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
@@ -540,8 +543,8 @@
     <script src="bootstrap/js/validator.min.js"></script>
     <script src="bootstrap/js/bootbox.min.js"></script>
     <script src="http://platform.twitter.com/widgets.js"></script>
-       <!-- Plugin JavaScript -->
-       <script src="jquery-easing/jquery.easing.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="jquery-easing/jquery.easing.min.js"></script>
     <script src="js/script.js">
     </script>
 </body>
