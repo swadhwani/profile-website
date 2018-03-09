@@ -46,4 +46,9 @@
 
   }
 
+  $("#cockpitProject").click(function(){
+    $("#projectsModal").modal('toggle');
+  });
+  
+
   

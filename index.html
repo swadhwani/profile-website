@@ -76,6 +76,45 @@
         </div>
     </header>
 
+    <!-- Modal for projects -->
+    <div id="projectsModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div id="cockpitCarousal" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="./images/cockpit.png" alt="...">
+                            <div class="carousel-caption">
+                                One Image
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="./images/cockpit1.png" alt="...">
+                            <div class="carousel-caption">
+                                Another Image
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="./images/cockpit2.png" alt="...">
+                            <div class="carousel-caption">
+                                Another Image
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#cockpitCarousal" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#cockpitCarousal" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
 
         <!-- Profile container on the page -->
@@ -153,13 +192,13 @@
                         <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/sunnySideDown22" target="_blank">
                             <i class="fa fa-twitter"></i>
                         </a>
-                        <a class="btn btn-social-icon btn-linkedin" href="https://twitter.com/sunnySideDown22" target="_blank">
+                        <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/pub/swaroop-wadhwani/40/144/699/" target="_blank">
                             <i class="fa fa-linkedin"></i>
                         </a>
-                        <a class="btn btn-social-icon btn-github" href="https://twitter.com/sunnySideDown22" target="_blank">
+                        <a class="btn btn-social-icon btn-github" href="https://github.com/swadhwani" target="_blank">
                             <i class="fa fa-github"></i>
                         </a>
-                        <a id="downloadResume" class="btn btn-social-icon btn-facebook" href="Swaroop_wadhwani.docx" target="_blank" data-toggle="tooltip"
+                        <a id="downloadResume" class="btn btn-social-icon btn-facebook" href="./Swaroop_wadhwani.docx" target="_blank" data-toggle="tooltip"
                             title="Download Resume" download>
                             <i class="fa fa-download"></i>
                         </a>
@@ -440,7 +479,7 @@
         </div>
 
 
-        <div class="row row-content justify-content-between" id="projects">
+        <!-- <div class="row row-content justify-content-between" id="projects"> 
 
             <div class="card col-12">
                 <div class="card-header greenish-white">
@@ -450,19 +489,19 @@
                 </div>
                 <div class="card-block" style="margin-top:20px; margin-bottom:50px;">
                     <div class="row">
-                        <div class="col-4 cockpit-container">
+                        <div class="col-12 col-sm-4 cockpit-container">
                             <img src="./images/cockpit.png" class="img-thumbnail image" alt="RATS Cockpit">
                             <div class="more-button">
-                                <button class="btn btn-primary"> View More</button>
+                                <button id="cockpitProject" class="btn btn-primary"> View More</button>
                             </div>
                         </div>
-                        <div class="col-4 cockpit-container">
+                        <div class="col-12 col-sm-4 cockpit-container">
                             <img src="./images/sysmexDash.jpg" class="img-thumbnail image" alt="Sysmex Dashboard">
                             <div class="more-button">
                                 <button class="btn btn-primary"> View More</button>
                             </div>
                         </div>
-                        <div class="col-4 cockpit-container">
+                        <div class="col-12 col-sm-4 cockpit-container">
                             <img src="./images/cockpit.png" class="img-thumbnail image" alt="RATS Cockpit">
                             <div class="more-button">
                                 <button class="btn btn-primary"> View More</button>
@@ -471,7 +510,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
         <div class="row row-content justify-content-between" id="contact">
@@ -503,13 +542,13 @@
                     <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/sunnySideDown22" target="_blank">
                         <i class="fa fa-twitter"></i>
                     </a> &nbsp; &nbsp; &nbsp;
-                    <a class="btn btn-social-icon btn-linkedin" href="https://twitter.com/sunnySideDown22" target="_blank">
+                    <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/pub/swaroop-wadhwani/40/144/699/" target="_blank">
                         <i class="fa fa-linkedin"></i>
                     </a> &nbsp; &nbsp; &nbsp;
-                    <a class="btn btn-social-icon btn-github" href="https://twitter.com/sunnySideDown22" target="_blank">
+                    <a class="btn btn-social-icon btn-github" href="https://github.com/swadhwani" target="_blank">
                         <i class="fa fa-github"></i>
                     </a> &nbsp; &nbsp; &nbsp;
-                    <a id="downloadResume" class="btn btn-social-icon btn-facebook" href="Swaroop_wadhwani.docx" target="_blank" data-toggle="tooltip"
+                    <a id="downloadResume" class="btn btn-social-icon btn-facebook" href="./Swaroop_wadhwani.docx" target="_blank" data-toggle="tooltip"
                         title="Download Resume" download>
                         <i class="fa fa-download"></i>
                     </a>
@@ -524,7 +563,7 @@
                 </div>
                 <div class="card-block">
                     <div class="col-sm-12">
-                        <form data-toggle="validator" role="form" id="contactForm" method="POST" action="http://formspree.io/swaroop.s.wadhwani@gmail.com">
+                        <form data-toggle="validator" role="form" id="contactForm" method="POST" action="https://formspree.io/swaroop.s.wadhwani@gmail.com">
                             <div class="form-group row" style="margin-top: 20px">
                                 <div class="col-md-10">
                                     <input type="text" class="form-control" id="yourname" name="firstname" placeholder="Your Name" data-error="Please provide your Name"
